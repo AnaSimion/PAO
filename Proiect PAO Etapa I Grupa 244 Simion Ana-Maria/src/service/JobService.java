@@ -1,7 +1,6 @@
 package service;
 import model.Job;
 import repository.JobRepository;
-
 import java.util.List;
 
 public class JobService {
@@ -34,4 +33,5 @@ public class JobService {
     public void deleteJob(Job p) {
         jobRepository.sterge(p);
     }
+
 }

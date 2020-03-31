@@ -1,6 +1,7 @@
 package model;
 
 public class Cauciuc {
+
     private int cod;
     private String producator;
     private int indiceUzura;
@@ -22,11 +23,10 @@ public class Cauciuc {
     }
 
     public void setIndiceUzura(int indiceUzura) {
-        if(indiceUzura >= 0 &&indiceUzura <= 5)
+        if(indiceUzura >= 0 && indiceUzura <= 5)
             this.indiceUzura = indiceUzura;
         else
-                System.out.println("Indicele de uzura trebuie sa fie in intervalului [0,5]");
-
+            System.out.println("Indicele de uzura trebuie sa fie in intervalului [0,5]");
     }
 
     public int getCod() {

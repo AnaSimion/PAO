@@ -7,14 +7,12 @@ public class Ruta {
     private Oras start;
     private Oras destinatie;
 
-
     public Ruta(int distanta, int durataInMinute, Oras start, Oras destinatie) {
         this.distanta = distanta;
         this.durataInMinute = durataInMinute;
         this.start = start;
         this.destinatie = destinatie;
     }
-
 
     public Oras getStart() {
         return start;
@@ -53,8 +51,6 @@ public class Ruta {
             this.durataInMinute = durataInMinute;
         else System.out.println("Durata nu poate sa fie o valoare negativa.");
     }
-
-
 
     @Override
     public String toString() {

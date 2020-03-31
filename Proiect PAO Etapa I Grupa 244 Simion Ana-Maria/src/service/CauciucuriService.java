@@ -1,10 +1,8 @@
 package service;
-
+import model.Cauciuc;
 import model.Cauciuc;
 import repository.CauciucuriRepository;
-
 import java.util.List;
-
 
 public class CauciucuriService {
 
@@ -17,7 +15,6 @@ public class CauciucuriService {
     public static CauciucuriService getInstance() {
         return instance;
     }
-
 
     public Cauciuc findCauciucuriByCod(int p)   {
         return cauciucuriRepository.findCauciucuriByCod(p);
@@ -35,7 +32,6 @@ public class CauciucuriService {
     public void deleteCauciucuri(Cauciuc p)   {
         cauciucuriRepository.sterge(p);
     }
-
 
     public List<Cauciuc> getCauciucuri()  {
         return cauciucuriRepository.getCauciucuri();

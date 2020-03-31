@@ -10,11 +10,11 @@ public class Factura {
 
 
     public Factura( int numarFactura, Masina masina, Ruta ruta) {
-        this.codUnic = 1100*10+numarFactura;
+        this.codUnic = 11000 + numarFactura;
         this.numarFactura = numarFactura;
         this.masina = masina;
         this.ruta = ruta;
-        this.total = masina.getTarifPerKm()*ruta.getDistanta();
+        this.total = masina.getTarifPerKm() * ruta.getDistanta();
     }
 
     public int getCodUnic() {

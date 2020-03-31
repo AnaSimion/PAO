@@ -1,10 +1,7 @@
 package service;
-
 import model.Oras;
 import repository.OrasRepository;
-
 import java.util.List;
-
 
 public class OrasService {
 
@@ -17,7 +14,6 @@ public class OrasService {
     public static OrasService getInstance() {
         return instance;
     }
-
 
     public void addOras(Oras p)   {
         oraseRepository.adauga(p);
@@ -35,8 +31,6 @@ public class OrasService {
         Oras x=findOrasByNume(nume);
         x.setIndiceMinimPoluare(p);
     }
-
-
 
     public List<Oras> getOras()  {
         return oraseRepository.getOrase();

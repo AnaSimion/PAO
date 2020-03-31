@@ -1,11 +1,7 @@
 package service;
-
 import model.Factura;
-
 import repository.FacturaRepository;
-
 import java.util.List;
-
 
 public class FacturaService {
 
@@ -19,11 +15,9 @@ public class FacturaService {
         return instance;
     }
 
-
     public void addFactura(Factura p)   {
         facturiRepository.adauga(p);
     }
-
 
     public Factura findFacturaByCod(int p)   {
         return facturiRepository.findFacturaByCod(p);
@@ -33,11 +27,10 @@ public class FacturaService {
 
         for(Factura p: facturiRepository.getFacturi())
             if(p.getTotal()>=x) {
-                System.out.print(p.getCodUnic()+" "+p.getTotal()+" ");
+                System.out.print(p.getCodUnic() + " " + p.getTotal() + " ");
                 System.out.println();
             }
     }
-
 
     public List<Factura> getFactura()  {
         return facturiRepository.getFacturi();

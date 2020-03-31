@@ -1,11 +1,9 @@
 package service;
-
-
 import model.Manager;
 import repository.ManagerRepository;
 
-
 public class ManagerService {
+
     private static ManagerService instance = new ManagerService();
     private ManagerRepository managerRepository = new ManagerRepository();
 

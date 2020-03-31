@@ -26,7 +26,6 @@ public class AngajatService {
         return x.getNumarOreSuplimentare()*x.getJob().getComisionPeOraSuplimentara();
     }
 
-
     public List<Angajat> getAngajati() {
         return angajatRepository.getAngajati();
     }

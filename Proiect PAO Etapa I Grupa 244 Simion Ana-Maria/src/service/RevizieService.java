@@ -1,10 +1,7 @@
 package service;
-
 import model.Revizie;
 import repository.RevizieRepository;
-
 import java.util.List;
-
 
 public class RevizieService {
 
@@ -24,8 +21,8 @@ public class RevizieService {
 
     public void afisareReviziicareExpiraAnulAsta(int an){
         List <Revizie> x = reviziiRepository.getRevizie();
-        for(int i=0;i<x.size();i++)
-            if(x.get(i).getAnExpirare()==an){
+        for(int i=0; i<x.size(); i++)
+            if(x.get(i).getAnExpirare() == an){
                 System.out.print(x.get(i));
                 System.out.print(" ");
             }

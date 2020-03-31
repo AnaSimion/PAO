@@ -1,6 +1,7 @@
 package model;
 
 public class Angajat {
+
     private String numePrenume;
     private Job job;
     private int numarOreSuplimentare;
@@ -43,4 +44,5 @@ public class Angajat {
                 ", numarOreSuplimentare=" + numarOreSuplimentare +
                 '}';
     }
+
 }

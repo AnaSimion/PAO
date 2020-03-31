@@ -1,6 +1,7 @@
 package model;
 
 public class Revizie {
+
     private int id;
     private int anExpirare;
     private int lunaExpirare;
@@ -51,4 +52,5 @@ public class Revizie {
                 ", ziExpirare=" + ziExpirare +
                 '}';
     }
+
 }

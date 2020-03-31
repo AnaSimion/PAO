@@ -1,10 +1,7 @@
 package service;
-
 import model.Ruta;
 import repository.RutaRepository;
-
 import java.util.List;
-
 
 public class RutaService {
 
@@ -17,7 +14,6 @@ public class RutaService {
     public static RutaService getInstance() {
         return instance;
     }
-
 
     public void addRuta(Ruta p)   {
         rutaRepository.adauga(p);

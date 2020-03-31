@@ -1,6 +1,7 @@
 package model;
 
 public class Oras {
+
     private String nume;
     private int indiceMinimPoluare;
 
@@ -20,7 +21,7 @@ public class Oras {
     }
 
     public void setIndiceMinimPoluare(int indiceMinimPoluare) {
-        if(indiceMinimPoluare >= 1 &&indiceMinimPoluare <= 7)
+        if(indiceMinimPoluare >= 1 && indiceMinimPoluare <= 7)
             this.indiceMinimPoluare = indiceMinimPoluare;
         else System.out.println("Valoare gresita! Indicele de poluare apartine intervalului [1,7]");
     }
@@ -32,4 +33,5 @@ public class Oras {
                 ", indiceMinimPoluare=" + indiceMinimPoluare +
                 '}';
     }
+
 }

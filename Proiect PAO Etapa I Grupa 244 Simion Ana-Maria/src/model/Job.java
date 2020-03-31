@@ -1,6 +1,7 @@
 package model;
 
 public class Job  {
+
     private String numeJob;
     private int numarDeOreMinimPeLuna;
     private int comisionPeOraSuplimentara;

@@ -1,6 +1,7 @@
 package model;
 
 public class Masina {
+
     private String marca;
     private String serieSasiu;
     private String numarInmatriculare;
@@ -142,4 +143,5 @@ public class Masina {
                 ", revizie=" + revizie +
                 '}';
     }
+
 }
