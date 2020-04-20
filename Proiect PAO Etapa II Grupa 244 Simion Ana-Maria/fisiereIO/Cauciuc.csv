@@ -1,0 +1,12 @@
+101,Continental,0,false,true,17,255,45
+102,Michelin,0,false,true,16,255,55
+103,Goodyear,4,false,true,15,195,65
+104,Hankook,2,false,true,16,165,60
+105,Pirelli,1,false,true,18,285,30
+106,Dunlop,3,false,true,19,305,25
+107,Continental,0,true,false,17,255,45
+108,Nokian,0,true,false,16,255,55
+109,Bridgestone,4,true,false,15,195,65
+110,Yokohama,2,true,false,16,165,60
+111,Barum,2,true,false,18,285,30
+112,Bridgestone,3,true,false,19,305,25
